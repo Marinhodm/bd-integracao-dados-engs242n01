@@ -1,7 +1,7 @@
 # Integração de Dados: implantação, consultas e validação
 
 **Disciplina:** Banco de Dados (ENGS242N01)  
-**Trabalho:** em trio (equipe de 3 pessoas)  
+**Trabalho:** em quarteto (equipe de 4 pessoas)  
 **Entrega e apresentação:** 26/11/2026
 
 ## Equipe
@@ -9,10 +9,10 @@
 **Nome do time:** ____________________
 
 | Nome | Matrícula | Usuário do GitHub |
-| --- | --- | --- |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Daniel Marinho | ---| --- |
+| João Pedro Pereira|  |
+| Luiz Gato|  |
+| Gerson Fujimoto |  |
 
 ## O cenário
 
