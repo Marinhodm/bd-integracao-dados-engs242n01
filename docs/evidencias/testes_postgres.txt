@@ -1,0 +1,39 @@
+test_data_do_excel_ja_convertida_nao_vira_null (test_importacao.ConversoesTest.test_data_do_excel_ja_convertida_nao_vira_null) ... ok
+
+test_data_invalida_e_rejeitada (test_importacao.ConversoesTest.test_data_invalida_e_rejeitada) ... ok
+
+test_decimal_exato_sem_arredondamento_silencioso (test_importacao.ConversoesTest.test_decimal_exato_sem_arredondamento_silencioso) ... ok
+
+test_erro_identifica_aba_e_linha (test_importacao.ConversoesTest.test_erro_identifica_aba_e_linha) ... ok
+
+test_identificador_fracionario_nao_e_truncado (test_importacao.ConversoesTest.test_identificador_fracionario_nao_e_truncado) ... ok
+
+test_origem_completa_e_celulas_extras_preservadas (test_importacao.ConversoesTest.test_origem_completa_e_celulas_extras_preservadas) ... ok
+
+test_serial_excel_e_textos_explicitos (test_importacao.ConversoesTest.test_serial_excel_e_textos_explicitos) ... ok
+
+test_contagens_e_fechamento_fevereiro (test_integracao.IntegracaoTest.test_contagens_e_fechamento_fevereiro) ... ok
+
+test_divergencia_detectada_mesmo_com_contagem_igual (test_integracao.IntegracaoTest.test_divergencia_detectada_mesmo_com_contagem_igual) ... ok
+
+test_erro_tardio_desfaz_toda_a_importacao (test_integracao.IntegracaoTest.test_erro_tardio_desfaz_toda_a_importacao) ... ok
+
+test_fk_rejeita_fornecedor_inexistente (test_integracao.IntegracaoTest.test_fk_rejeita_fornecedor_inexistente) ... ok
+
+test_repeticao_confere_conteudo_sem_duplicar (test_integracao.IntegracaoTest.test_repeticao_confere_conteudo_sem_duplicar) ... ok
+
+test_trigger_concorrente_nao_colide (test_integracao.IntegracaoTest.test_trigger_concorrente_nao_colide) ... ok
+
+test_trigger_cria_fornecedor_provisorio_valido (test_integracao.IntegracaoTest.test_trigger_cria_fornecedor_provisorio_valido) ... ok
+
+test_trigger_preserva_fornecedor_existente (test_integracao.IntegracaoTest.test_trigger_preserva_fornecedor_existente) ... ok
+
+
+
+----------------------------------------------------------------------
+
+Ran 15 tests in 1.006s
+
+
+
+OK

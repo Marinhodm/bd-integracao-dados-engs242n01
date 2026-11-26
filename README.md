@@ -6,13 +6,39 @@
 
 ## Equipe
 
-**Nome do time:** ____________________
+| Nome |
+| --- |
+| Daniel Marinho |
+| João Pedro Pereira |
+| Luiz Gato |
+| Gerson Fujimoto |
 
-| Nome | Matrícula | Usuário do GitHub |
-| Daniel Marinho | ---| --- |
-| João Pedro Pereira|  |
-| Luiz Gato|  |
-| Gerson Fujimoto |  |
+Conforme orientação do professor informada pela equipe, a identificação contém apenas os nomes.
+
+## Solução e execução
+
+As correções, a importação e as consultas foram testadas em PostgreSQL 17.12 e
+MySQL 8.4.13.1. A planilha e o DDL original foram preservados.
+
+- [Como executar e documentação da importação](docs/parte1_importacao.md).
+- [Roteiro de validação, resultados e problemas da origem](docs/parte4_validacao.md).
+- [Logs e relatórios dos testes](docs/evidencias).
+
+Ordem: DDL do banco escolhido → `scripts/importar.py` → `sql/02_consultas.sql`
+→ `sql/03_transformacoes.sql` (PostgreSQL) ou `sql/03_transformacoes_mysql.sql`
+→ `sql/04_validacao.sql`.
+
+| Tabela | Planilha | PostgreSQL | MySQL |
+| --- | --- | --- | --- |
+| fornecedor | 20 | 20 | 20 |
+| produtos_filial | 20 | 20 | 20 |
+| pedido_compra | 29 | 29 | 29 |
+| entradas_mercadoria | 20 | 20 | 20 |
+| venda | 33 | 33 | 33 |
+
+Fevereiro/2025: **14 registros de venda, 173,22 em quantidade e R$ 14.093,17**.
+São os valores da origem importada; as divergências de negócio estão documentadas
+para validação com o cliente. Foram executados **15 testes em cada banco**.
 
 ## O cenário
 
@@ -84,9 +110,9 @@ sql/04_validacao.sql                Parte 4
 
 ## Como entregar
 
-1. **Um integrante do trio**, logado no GitHub, clica em **Fork** (canto superior direito) e depois em **Create fork**. O fork é a cópia da equipe; os outros dois integrantes **não** fazem fork.
+1. **Um integrante da equipe** cria o fork e adiciona os colegas. Esta equipe usa **Marinhodm/bd-integracao-dados-engs242n01**; os demais integrantes não precisam criar outro fork.
 2. No fork, ele vai em **Settings → Collaborators → Add people** e adiciona os colegas pelo usuário do GitHub. Cada colega aceita o convite que chega por e-mail.
-3. No fork, preencham o **nome do time** e a tabela **Equipe** no topo deste README com os nomes dos 3 integrantes: clique em `README.md`, depois no lápis ✏️, e em **Commit changes**. Não apaguem a linha `| --- | --- | --- |` da tabela.
+3. Confiram a tabela **Equipe** no topo deste README com os quatro nomes. Matrículas e usuários foram dispensados pelo professor, conforme orientação recebida pela equipe.
 4. Cada integrante clona o fork (`git clone <link-do-fork>`) e trabalha nele. **Cada integrante deve ter pelo menos 3 commits** ao longo das etapas.
 5. **Não coloque senha real** no `importar.py`: use variável de ambiente ou deixe um valor de exemplo.
 6. Para entregar, um integrante abre o fork e clica em **Contribute → Open pull request**, preenche o modelo e clica em **Create pull request**. Cada novo `git push` atualiza o mesmo Pull Request até o prazo.

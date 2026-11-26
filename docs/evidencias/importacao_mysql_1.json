@@ -1,0 +1,37 @@
+{
+  "linhas_na_planilha": {
+    "fornecedor": 20,
+    "produtos_filial": 20,
+    "pedido_compra": 29,
+    "entradas_mercadoria": 20,
+    "venda": 33
+  },
+  "avisos_estrutura": [
+    "pedido_compra, linha 22: extras preservados em M,N,O,P,Q,R,S,T,U,V,W",
+    "pedido_compra, linha 23: extras preservados em M,N,O,P,Q,R,S,T,U,V,W",
+    "pedido_compra, linha 24: extras preservados em M,N,O,P,Q,R,S,T,U,V,W",
+    "pedido_compra, linha 25: extras preservados em M,N,O,P,Q,R,S,T,U,V,W",
+    "pedido_compra, linha 26: extras preservados em M,N,O,P,Q,R,S,T,U,V,W",
+    "pedido_compra, linha 27: extras preservados em M,N,O,P,Q,R,S,T,U,V,W",
+    "pedido_compra, linha 28: extras preservados em M,N,O,P,Q,R,S,T,U,V,W",
+    "pedido_compra, linha 29: extras preservados em M,N,O,P,Q,R,S,T,U,V,W",
+    "pedido_compra, linha 30: extras preservados em M,N,O,P,Q,R,S,T,U,V,W"
+  ],
+  "sha256": "b4083f063277b27ffbd50a5611d1514488878b896767cbf0efaeac7c6a6ba918",
+  "banco": "mysql",
+  "situacao": "importado e confirmado",
+  "linhas_no_banco": {
+    "fornecedor": 20,
+    "produtos_filial": 20,
+    "pedido_compra": 29,
+    "entradas_mercadoria": 20,
+    "venda": 33
+  },
+  "inseridos_nesta_execucao": {
+    "fornecedor": 20,
+    "produtos_filial": 20,
+    "pedido_compra": 29,
+    "entradas_mercadoria": 20,
+    "venda": 33
+  }
+}

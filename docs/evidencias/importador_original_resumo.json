@@ -1,0 +1,12 @@
+{
+  "exit_code": 0,
+  "contagens": {
+    "fornecedor": 20,
+    "produtos_filial": 20,
+    "pedido_compra": 29,
+    "entradas_mercadoria": 20,
+    "venda": 0
+  },
+  "pedidos_sem_data": 29,
+  "entradas_sem_data": 20
+}
