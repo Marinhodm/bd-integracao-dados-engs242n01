@@ -1,0 +1,120 @@
+Conectando no PostgreSQL...
+Conectado!
+
+Importando fornecedor...
+  20 registros inseridos em fornecedor
+
+Importando produtos_filial...
+  20 registros inseridos em produtos_filial
+
+Importando pedido_compra...
+  29 registros inseridos em pedido_compra
+
+Importando entradas_mercadoria...
+  20 registros inseridos em entradas_mercadoria
+
+Importando venda...
+  Erro venda linha 0: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (1, null, 08:00:00, P1, 5, 78.9300, 1, 1, UN).
+
+  Erro venda linha 1: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (2, null, 08:00:00, P2, 7, 92.9600, 1, 1, UN).
+
+  Erro venda linha 2: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (3, null, 08:00:00, P3, 9, 197.6100, 1, 1, UN).
+
+  Erro venda linha 3: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (4, null, 08:00:00, P4, 38.6, 139.7100, 1, 1, UN).
+
+  Erro venda linha 4: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (5, null, 08:00:00, P5, 3, 126.7900, 1, 1, UN).
+
+  Erro venda linha 5: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (6, null, 08:00:00, P6, 2, 36.8300, 1, 1, UN).
+
+  Erro venda linha 6: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (7, null, 08:00:00, P7, 5, 40.7500, 1, 1, UN).
+
+  Erro venda linha 7: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (8, null, 08:00:00, P8, 20.04, 51.3700, 1, 1, UN).
+
+  Erro venda linha 8: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (9, null, 08:00:00, P9, 6, 172.5500, 1, 1, UN).
+
+  Erro venda linha 9: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (10, null, 08:00:00, P10, 90, 44.2200, 1, 1, UN).
+
+  Erro venda linha 10: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (11, null, 08:00:00, P11, 6, 190.3700, 1, 1, UN).
+
+  Erro venda linha 11: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (12, null, 08:00:00, P12, 2.86, 136.4000, 1, 1, UN).
+
+  Erro venda linha 12: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (13, null, 08:00:00, P13, 13, 61.8500, 1, 1, UN).
+
+  Erro venda linha 13: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (14, null, 08:00:00, P14, 53, 106.3000, 1, 1, UN).
+
+  Erro venda linha 14: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (15, null, 08:00:00, P15, 27, 43.4000, 1, 1, UN).
+
+  Erro venda linha 15: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (16, null, 08:00:00, P16, 37.11, 14.4100, 1, 1, UN).
+
+  Erro venda linha 16: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (17, null, 08:00:00, P17, 3, 139.8000, 1, 1, UN).
+
+  Erro venda linha 17: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (18, null, 08:00:00, P18, 5, 185.2300, 1, 1, UN).
+
+  Erro venda linha 18: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (19, null, 08:00:00, P19, 10, 182.5100, 1, 1, UN).
+
+  Erro venda linha 19: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (20, null, 08:00:00, P20, 2, 68.5400, 1, 1, UN).
+
+  Erro venda linha 20: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (21, null, 08:00:00, P21, 25, 61.8500, 1, 1, UN).
+
+  Erro venda linha 21: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (22, null, 08:00:00, P22, 6, 106.3000, 1, 1, UN).
+
+  Erro venda linha 22: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (23, null, 08:00:00, P23, 7, 43.4000, 1, 1, UN).
+
+  Erro venda linha 23: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (24, null, 08:00:00, P24, 4, 14.4100, 1, 1, UN).
+
+  Erro venda linha 24: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (25, null, 08:00:00, P25, 8, 139.8000, 1, 1, UN).
+
+  Erro venda linha 25: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (26, null, 08:00:00, P26, 3.11, 185.2300, 1, 1, UN).
+
+  Erro venda linha 26: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (27, null, 08:00:00, P27, 3, 182.5100, 2, 1, UN).
+
+  Erro venda linha 27: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (28, null, 08:00:00, P28, 6, 68.5400, 3, 1, UN).
+
+  Erro venda linha 28: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (29, null, 08:00:00, P24, 5, 14.4100, 1, 1, UN).
+
+  Erro venda linha 29: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (30, null, 08:00:00, P25, 3, 139.8000, 1, 1, UN).
+
+  Erro venda linha 30: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (31, null, 08:00:00, P26, 4, 185.2300, 1, 1, UN).
+
+  Erro venda linha 31: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (32, null, 08:00:00, P27, 2, 182.5100, 2, 1, UN).
+
+  Erro venda linha 32: null value in column "data_emissao" of relation "venda" violates not-null constraint
+DETAIL:  Failing row contains (33, null, 08:00:00, P28, 1, 68.5400, 3, 1, UN).
+
+  33 registros inseridos em venda
+
+========================================
+Importação concluída com sucesso!
+========================================

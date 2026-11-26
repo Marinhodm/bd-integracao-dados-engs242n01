@@ -1,0 +1,21 @@
+CREATE TABLE
+
+CREATE TABLE
+
+psql:sql/01_ddl_enunciado.sql:27: ERROR:  column "ordem_compra" named in key does not exist
+
+LINE 5:  CONSTRAINT entradas_mercadoria_pkey PRIMARY KEY (ordem_comp...
+
+         ^
+
+psql:sql/01_ddl_enunciado.sql:33: ERROR:  syntax error at or near "("
+
+LINE 6:  CONSTRAINT produtos_filial_pkey PRIMARY KEY (filial_id, idp...
+
+                                                     ^
+
+psql:sql/01_ddl_enunciado.sql:36: ERROR:  column "idproduto" named in key does not exist
+
+LINE 3:  CONSTRAINT fornecedor_pkey PRIMARY KEY (idforncedor, idprod...
+
+         ^

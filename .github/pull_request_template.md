@@ -1,22 +1,24 @@
 ## Equipe
 
-**Nome do time:** 
-
-| Nome | Matrícula | Usuário do GitHub |
-| --- | --- | --- |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Nome |
+| --- |
+| Daniel Marinho |
+| João Pedro Pereira |
+| Luiz Gato |
+| Gerson Fujimoto |
 
 ## Conferência da importação
 
 | Tabela | Linhas no banco |
 | --- | --- |
-| fornecedor |  |
-| produtos_filial |  |
-| pedido_compra |  |
-| entradas_mercadoria |  |
-| venda |  |
+| fornecedor | 20 |
+| produtos_filial | 20 |
+| pedido_compra | 29 |
+| entradas_mercadoria | 20 |
+| venda | 33 |
+
+Contagens verificadas no PostgreSQL e no MySQL. Evidências em `docs/evidencias/`.
+As inconsistências de negócio estão descritas em `docs/parte4_validacao.md`.
 
 ## Checklist
 
